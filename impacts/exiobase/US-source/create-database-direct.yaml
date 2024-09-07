@@ -1,10 +1,14 @@
+Sector:
+  SectorID: Sector
+  SectorName: SectorName
+
 SectorFactor:
-  source: US_summary_import_factors_exio_2020_17sch.csv
+  similar: US_summary_import_factors_exio_2020_17sch.csv
   index: FactorID
   indextype: 1-based
   columns:
     SectorID: Sector
-    FactorUUID: FlowUUID
+    FlowUUID: FlowUUID
     FactorAmount: FlowAmount
   omit:
     - Year
@@ -15,13 +19,17 @@ SectorFactor:
     - Context
     - BaseIOLevel
 
+Commodity:
+  CommodityID: Sector
+  CommodityName: SectorName
+
 CommodityFactor:
-  source: US_detail_import_factors_exio_2020_17sch.csv
+  similar: US_detail_import_factors_exio_2020_17sch.csv
   index: FactorID
   indextype: 1-based
   columns:
     CommodityID: Sector
-    FactorUUID: FlowUUID
+    FlowUUID: FlowUUID
     FactorAmount: FlowAmount
   omit:
     - Year
@@ -33,13 +41,13 @@ CommodityFactor:
     - BaseIOLevel
 
 ImportSectorFactor:
-  source: Regional_summary_import_factors_exio_2020_17sch.csv
+  similar: Regional_summary_import_factors_exio_2020_17sch.csv
   index: FactorID
   indextype: 1-based
   columns:
     CountryCode: Region
     SectorID: Sector
-    FactorUUID: FlowUUID
+    FlowUUID: FlowUUID
     FactorAmount: FlowAmount
   omit:
     - Year
@@ -51,13 +59,13 @@ ImportSectorFactor:
     - BaseIOLevel
 
 ImportCommodityFactor:
-  source: Regional_detail_import_factors_exio_2020_17sch.csv
+  similar: Regional_detail_import_factors_exio_2020_17sch.csv
   index: FactorID
   indextype: 1-based
   columns:
     CountryCode: Region
     CommodityID: Sector
-    FactorUUID: FlowUUID
+    FlowUUID: FlowUUID
     FactorAmount: FlowAmount
   omit:
     - Year
@@ -69,7 +77,7 @@ ImportCommodityFactor:
     - BaseIOLevel
 
 ImportContributions:
-  source: country_contributions_by_sector_2020.csv
+  similar: country_contributions_by_sector_2020.csv
   columns:
     CountryCode: CountryCode
     CommodityID: "BEA_Detail"
@@ -87,7 +95,7 @@ ImportContributions:
     - Region
 
 ImportMultiplierFactor:
-  source: multiplier_df_exio_2020_17sch.csv
+  similar: multiplier_df_exio_2020_17sch.csv
   columns:
     CountryCode: CountryCode
     CommodityID: "BEA_Detail"
@@ -97,7 +105,7 @@ ImportMultiplierFactor:
     ContributionImportCommodity: cntry_cntrb_to_region_detail
     ContributionSector: cntry_cntrb_to_national_summary
     ContributionCommodity: cntry_cntrb_to_region_summary
-    FactorUUID: FlowUUID
+    FlowUUID: FlowUUID
     Footprint: EF
   omit:
     - Region
@@ -111,3 +119,13 @@ ImportMultiplierFactor:
     - PriceType
     - Flowable
     - Context
+
+Factor:
+  index: FactorID
+  indextype: 1-based
+  columns:
+    FactorID: FactorID
+    FlowUUID: FlowUUID
+    FactorName: Flowable
+    Unit: Unit
+    Context: Context
