@@ -80,3 +80,209 @@
 2024/09/05 22:10:52 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://etl-api.cqd.io:443 "POST /api/rest-auth/login HTTP/11" 400 150
 2024/09/06 22:11:08 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): etl-api.cqd.io:443
 2024/09/06 22:11:08 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://etl-api.cqd.io:443 "POST /api/rest-auth/login HTTP/11" 400 150
+2024/09/07 14:27:48 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): etl-api.cqd.io:443
+2024/09/07 14:27:49 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://etl-api.cqd.io:443 "POST /api/rest-auth/login HTTP/11" 200 83
+2024/09/07 14:27:49 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:28:03 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-GA&page_size=250 HTTP/11" 200 None
+2024/09/07 14:28:03 - root - INFO - 50 - product-footprints - Fetching state: US-GA, page: 1
+2024/09/07 14:28:03 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:28:15 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-GA&page_size=250&page_number=1 HTTP/11" 200 None
+2024/09/07 14:28:18 - root - INFO - 50 - product-footprints - Fetching state: US-GA, page: 2
+2024/09/07 14:28:18 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:28:32 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-GA&page_size=250&page_number=2 HTTP/11" 200 None
+2024/09/07 14:28:33 - root - INFO - 50 - product-footprints - Fetching state: US-GA, page: 3
+2024/09/07 14:28:33 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:28:48 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-GA&page_size=250&page_number=3 HTTP/11" 200 None
+2024/09/07 14:28:50 - root - INFO - 50 - product-footprints - Fetching state: US-GA, page: 4
+2024/09/07 14:28:50 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:29:05 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-GA&page_size=250&page_number=4 HTTP/11" 200 None
+2024/09/07 14:29:06 - root - INFO - 50 - product-footprints - Fetching state: US-GA, page: 5
+2024/09/07 14:29:06 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:29:19 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-GA&page_size=250&page_number=5 HTTP/11" 200 None
+2024/09/07 14:29:21 - root - INFO - 50 - product-footprints - Fetching state: US-GA, page: 6
+2024/09/07 14:29:21 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:29:35 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-GA&page_size=250&page_number=6 HTTP/11" 200 None
+2024/09/07 14:29:36 - root - INFO - 50 - product-footprints - Fetching state: US-GA, page: 7
+2024/09/07 14:29:36 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:29:53 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-GA&page_size=250&page_number=7 HTTP/11" 200 None
+2024/09/07 14:29:55 - root - INFO - 50 - product-footprints - Fetching state: US-GA, page: 8
+2024/09/07 14:29:55 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:30:07 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-GA&page_size=250&page_number=8 HTTP/11" 200 None
+2024/09/07 14:30:09 - root - INFO - 50 - product-footprints - Fetching state: US-GA, page: 9
+2024/09/07 14:30:09 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:30:21 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-GA&page_size=250&page_number=9 HTTP/11" 200 None
+2024/09/07 14:30:22 - root - INFO - 50 - product-footprints - Fetching state: US-GA, page: 10
+2024/09/07 14:30:22 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:30:34 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-GA&page_size=250&page_number=10 HTTP/11" 200 None
+2024/09/07 14:30:36 - root - INFO - 50 - product-footprints - Fetching state: US-GA, page: 11
+2024/09/07 14:30:36 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:30:50 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-GA&page_size=250&page_number=11 HTTP/11" 200 None
+2024/09/07 14:30:52 - root - INFO - 50 - product-footprints - Fetching state: US-GA, page: 12
+2024/09/07 14:30:52 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:31:06 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-GA&page_size=250&page_number=12 HTTP/11" 200 None
+2024/09/07 14:31:08 - root - INFO - 50 - product-footprints - Fetching state: US-GA, page: 13
+2024/09/07 14:31:08 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:31:22 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-GA&page_size=250&page_number=13 HTTP/11" 200 None
+2024/09/07 14:31:23 - root - INFO - 50 - product-footprints - Fetching state: US-GA, page: 14
+2024/09/07 14:31:23 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:31:36 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-GA&page_size=250&page_number=14 HTTP/11" 200 None
+2024/09/07 14:31:37 - root - INFO - 50 - product-footprints - Fetching state: US-GA, page: 15
+2024/09/07 14:31:37 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:31:55 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-GA&page_size=250&page_number=15 HTTP/11" 200 None
+2024/09/07 14:31:56 - root - INFO - 50 - product-footprints - Fetching state: US-GA, page: 16
+2024/09/07 14:31:56 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:32:11 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-GA&page_size=250&page_number=16 HTTP/11" 200 None
+2024/09/07 14:32:13 - root - INFO - 50 - product-footprints - Fetching state: US-GA, page: 17
+2024/09/07 14:32:13 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:32:24 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-GA&page_size=250&page_number=17 HTTP/11" 200 None
+2024/09/07 14:34:26 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:34:34 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-ME&page_size=250 HTTP/11" 200 None
+2024/09/07 14:34:34 - root - INFO - 50 - product-footprints - Fetching state: US-ME, page: 1
+2024/09/07 14:34:34 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:34:44 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-ME&page_size=250&page_number=1 HTTP/11" 200 None
+2024/09/07 14:34:58 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:35:11 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250 HTTP/11" 200 None
+2024/09/07 14:35:12 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 1
+2024/09/07 14:35:12 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:35:26 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=1 HTTP/11" 200 None
+2024/09/07 14:35:27 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 2
+2024/09/07 14:35:27 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:35:40 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=2 HTTP/11" 200 None
+2024/09/07 14:35:42 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 3
+2024/09/07 14:35:42 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:35:54 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=3 HTTP/11" 200 None
+2024/09/07 14:35:56 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 4
+2024/09/07 14:35:56 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:36:10 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=4 HTTP/11" 200 None
+2024/09/07 14:36:12 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 5
+2024/09/07 14:36:12 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:36:26 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=5 HTTP/11" 200 None
+2024/09/07 14:36:28 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 6
+2024/09/07 14:36:28 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:36:43 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=6 HTTP/11" 200 None
+2024/09/07 14:36:44 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 7
+2024/09/07 14:36:44 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:36:59 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=7 HTTP/11" 200 None
+2024/09/07 14:37:00 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 8
+2024/09/07 14:37:00 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:37:14 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=8 HTTP/11" 200 None
+2024/09/07 14:37:15 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 9
+2024/09/07 14:37:15 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:37:29 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=9 HTTP/11" 200 None
+2024/09/07 14:37:32 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 10
+2024/09/07 14:37:32 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:37:43 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=10 HTTP/11" 200 None
+2024/09/07 14:37:45 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 11
+2024/09/07 14:37:45 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:37:58 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=11 HTTP/11" 200 None
+2024/09/07 14:37:59 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 12
+2024/09/07 14:37:59 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:38:13 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=12 HTTP/11" 200 None
+2024/09/07 14:38:15 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 13
+2024/09/07 14:38:15 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:38:29 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=13 HTTP/11" 200 None
+2024/09/07 14:38:31 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 14
+2024/09/07 14:38:31 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:38:44 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=14 HTTP/11" 200 None
+2024/09/07 14:38:45 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 15
+2024/09/07 14:38:45 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:39:01 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=15 HTTP/11" 200 None
+2024/09/07 14:39:02 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 16
+2024/09/07 14:39:02 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:39:18 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=16 HTTP/11" 200 None
+2024/09/07 14:39:20 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 17
+2024/09/07 14:39:20 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:39:36 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=17 HTTP/11" 200 None
+2024/09/07 14:39:38 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 18
+2024/09/07 14:39:38 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:39:53 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=18 HTTP/11" 200 None
+2024/09/07 14:39:57 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 19
+2024/09/07 14:39:57 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:40:13 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=19 HTTP/11" 200 None
+2024/09/07 14:40:14 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 20
+2024/09/07 14:40:14 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:40:28 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=20 HTTP/11" 200 None
+2024/09/07 14:40:30 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 21
+2024/09/07 14:40:30 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:40:44 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=21 HTTP/11" 200 None
+2024/09/07 14:40:46 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 22
+2024/09/07 14:40:46 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:40:58 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=22 HTTP/11" 200 None
+2024/09/07 14:41:00 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 23
+2024/09/07 14:41:00 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:41:14 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=23 HTTP/11" 200 None
+2024/09/07 14:41:15 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 24
+2024/09/07 14:41:15 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:41:33 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=24 HTTP/11" 200 None
+2024/09/07 14:41:34 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 25
+2024/09/07 14:41:34 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:41:48 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=25 HTTP/11" 200 None
+2024/09/07 14:41:50 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 26
+2024/09/07 14:41:50 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:42:07 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=26 HTTP/11" 200 None
+2024/09/07 14:42:08 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 27
+2024/09/07 14:42:08 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:42:22 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=27 HTTP/11" 200 None
+2024/09/07 14:42:23 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 28
+2024/09/07 14:42:23 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:42:38 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=28 HTTP/11" 200 None
+2024/09/07 14:42:39 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 29
+2024/09/07 14:42:39 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:42:54 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=29 HTTP/11" 200 None
+2024/09/07 14:42:55 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 30
+2024/09/07 14:42:55 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:43:09 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=30 HTTP/11" 200 None
+2024/09/07 14:43:11 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 31
+2024/09/07 14:43:11 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:43:25 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=31 HTTP/11" 200 None
+2024/09/07 14:43:27 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 32
+2024/09/07 14:43:27 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:43:45 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=32 HTTP/11" 200 None
+2024/09/07 14:43:47 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 33
+2024/09/07 14:43:47 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:44:00 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=33 HTTP/11" 200 None
+2024/09/07 14:44:04 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 34
+2024/09/07 14:44:04 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:44:19 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=34 HTTP/11" 200 None
+2024/09/07 14:44:20 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 35
+2024/09/07 14:44:20 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:44:36 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=35 HTTP/11" 200 None
+2024/09/07 14:44:38 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 36
+2024/09/07 14:44:38 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:44:53 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=36 HTTP/11" 200 None
+2024/09/07 14:44:55 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 37
+2024/09/07 14:44:55 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:45:11 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=37 HTTP/11" 200 None
+2024/09/07 14:45:12 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 38
+2024/09/07 14:45:12 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:45:27 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=38 HTTP/11" 200 None
+2024/09/07 14:45:29 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 39
+2024/09/07 14:45:29 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:45:44 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=39 HTTP/11" 200 None
+2024/09/07 14:45:45 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 40
+2024/09/07 14:45:45 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:45:58 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=40 HTTP/11" 200 None
+2024/09/07 14:46:00 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 41
+2024/09/07 14:46:00 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:46:13 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=41 HTTP/11" 200 None
+2024/09/07 14:46:15 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 42
+2024/09/07 14:46:15 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:46:30 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=42 HTTP/11" 200 None
+2024/09/07 14:46:31 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 43
+2024/09/07 14:46:31 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:46:47 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=43 HTTP/11" 200 None
+2024/09/07 14:46:48 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 44
+2024/09/07 14:46:48 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:47:02 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=44 HTTP/11" 200 None
+2024/09/07 14:47:04 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 45
+2024/09/07 14:47:04 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:47:18 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=45 HTTP/11" 200 None
+2024/09/07 14:47:19 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 46
+2024/09/07 14:47:19 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:47:33 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=46 HTTP/11" 200 None
+2024/09/07 14:47:35 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 47
+2024/09/07 14:47:35 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:47:52 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=47 HTTP/11" 200 None
+2024/09/07 14:47:53 - root - INFO - 50 - product-footprints - Fetching state: US-OR, page: 48
+2024/09/07 14:47:53 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): buildingtransparency.org:443
+2024/09/07 14:47:58 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=48 HTTP/11" 200 None

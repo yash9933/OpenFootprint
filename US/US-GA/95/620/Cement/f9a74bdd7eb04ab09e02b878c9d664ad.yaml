@@ -1,0 +1,534 @@
+also_shown_in: []
+applicable_in:
+- '001'
+approved_fields: {}
+are_impacts_locked: false
+astm_type: C150 Type I/II
+best_practice: 701.3919447 kgCO2e
+biogenic_embodied_carbon_z: 0.1211156472137271
+box_id: '1261747670400'
+category:
+  allows_any_declared_unit: false
+  beta_only: false
+  category_statistics_warning: false
+  created_on: '2019-07-01T09:38:58.417514Z'
+  declared_unit: 1 t
+  default_distance: 440.95916 km
+  default_transport_mode: truck, unspecified
+  description: Cements, including Portland and blended cements, that can serve as
+    the primary binder in a concrete mix.
+  display_name: Cement
+  draft: false
+  facility_type: PLANT
+  generic_material: false
+  hide_service_life: true
+  id: 8aff83d8d78249a0b3a78bfeca4b9720
+  includes_b1_stage: false
+  lcia_uncertainty: 0.03
+  mass_per_declared_unit: 1000 kg
+  massless: false
+  masterformat: 00 00 00 No Masterformat Code
+  may_contain_trusted_vendor_declarations: false
+  name: Cement
+  no_statistics: false
+  obsolete: false
+  openepd: ManufacturingInputs >> CementitiousMaterials >> Cement
+  openepd_name: ManufacturingInputs >> CementitiousMaterials >> Cement
+  parents: []
+  pct10_gwp: 393.4334188 kgCO2e
+  pct20_gwp: 612.0529735 kgCO2e
+  pct30_gwp: 705.8575354 kgCO2e
+  pct40_gwp: 763.6063306 kgCO2e
+  pct50_gwp: 799.0764076 kgCO2e
+  pct60_gwp: 849.5007414 kgCO2e
+  pct70_gwp: 899.8794575 kgCO2e
+  pct80_gwp: 957.9984309 kgCO2e
+  pct90_gwp: 1025.331734 kgCO2e
+  requires_mass_per_declared_unit: false
+  short_name: Cement
+  short_service_life_disclaimer: false
+  subcategories: []
+  template_builders: []
+  unspsc: '30111601'
+  updated_on: '2024-09-07T14:26:29.815384Z'
+  use_stored_carbon: ABSENT
+confirmable_fields: []
+confirmed_fields: []
+conservative_estimate: 860.6080553 kgCO2e
+corrections_count: 0
+cqd_sync_unlocked: true
+created_on: '2024-02-27T23:18:17.641926Z'
+date_of_issue: '2023-05-04'
+date_validity_ends: '2028-05-04'
+declaration_type: Product EPD
+declared_unit: 1.0 t
+density: 1440 kg / m^3
+description: Cemex Clinchfield Cement Plant EPD covers bulk and bagged cement products
+  produced at the plant, conforming to ISO standards. Life Cycle Assessment includes
+  GWP, ODP, EP, AP, and POCP. Materials considered include fly ash, silica fume, slag,
+  kiln dust, and gypsum.
+developer:
+  org:
+    address: 11 Rawhiti Road, Pukerua Bay, Wellington, North Island, 5026
+    address_line: 11 Rawhiti Road
+    admin_district: North Island
+    admin_district2: Wellington
+    alt_names:
+    - thinkstep Pty Ltd
+    - thinkstep-anz
+    confirmable_fields: []
+    confirmed_fields: []
+    country: NZ
+    cqd_sync_unlocked: true
+    created_on: '2020-11-19T11:44:47.151715Z'
+    email_extensions:
+    - thinkstep-anz.com
+    enterprise: true
+    id: 780d1576334c4dd1b2b83ad8bb134b6f
+    image: https://cqddatastore.blob.core.windows.net/cqd/images/25e9101f-eeff-4067-89a1-6001622486f4
+    is_failed: false
+    latitude: -41.02978
+    legal_name: thinkstep Pty Ltd
+    locality: Porirua
+    location:
+      country: New Zealand
+      countryCode: NZ
+      countryCodeISO3: NZL
+      countrySecondarySubdivision: Wellington
+      countrySubdivision: North Island
+      countryTertiarySubdivision: Porirua
+      freeformAddress: 11 Rawhiti Road, Pukerua Bay, Wellington, North Island, 5026
+      localName: Pukerua Bay
+      municipality: Porirua
+      municipalitySubdivision: Pukerua Bay
+      postalCode: '5026'
+      streetName: Rawhiti Road
+      streetNumber: '11'
+    longitude: 174.88877
+    name: thinkstep anz
+    org_type: Private
+    original_ec3_link: https://buildingtransparency.org/ec3/organizations/780d1576334c4dd1b2b83ad8bb134b6f
+    password_login_allowed: true
+    pilot_all_employees: false
+    postal_code: '5026'
+    primary_activity_builder: false
+    primary_activity_design: false
+    primary_activity_digitization_qa: false
+    primary_activity_education: false
+    primary_activity_epd_developer: false
+    primary_activity_forest_practices_certification: false
+    primary_activity_general_contractor: false
+    primary_activity_government: false
+    primary_activity_industry_association: false
+    primary_activity_manufacturer: false
+    primary_activity_operator: false
+    primary_activity_other: false
+    primary_activity_owner: false
+    primary_activity_pcr_publisher: false
+    primary_activity_performance_standards_issuer: false
+    primary_activity_subcontractor: false
+    primary_activity_sustainability_consulting: true
+    primary_activity_verifier: true
+    updated_on: '2022-03-16T13:03:45.843016Z'
+    web_domain: thinkstep-anz.com
+    website: https://www.thinkstep-anz.com/
+doc: cqd.io/e/ec300m9x8g
+epd_degraded: false
+errors:
+  name:
+  - Name is not extracted in sanitizer
+  verifier_org:
+  - Missing link
+excluded: false
+externally_verified: true
+failures: {}
+file_name: CX_Clinchfield Cement EPD_May 2023.pdf
+gwp: 781 kgCO2e
+gwp_per_category_declared_unit: 781 kgCO2e
+gwp_per_kg: 0.781 kgCO2e
+gwp_z: 0.1211156472137271
+id: ad492101a228498abb428b76992ce292
+image: https://cqddatastore.blob.core.windows.net/cqd/images/27094d9655c74e1ea4b75818de64da37.png
+impacts: {}
+is_downloadable: true
+is_duplicate: false
+is_failed: false
+jurisdiction:
+- '001'
+language: en
+lowest_plausible_gwp: 701.3919447 kgCO2e
+manufacturer:
+  address: 605 Industrial Way, Dixon, CA 95620
+  address_line: 605 Industrial Way
+  admin_district: CA
+  admin_district2: Solano
+  alt_names:
+  - BASALITE CONCRETE PRODUCTS
+  - Kistner Concrete Products
+  - Prestige Concrete Products
+  - Shea Concrete Products
+  - Brown's Concrete Products
+  - Century Concrete Products
+  - Cindercrete Products
+  - Basalite
+  - Basalite Concrete Products
+  attachments:
+    TransparencyCatalogURL: https://transparencycatalog.com/company/basalite
+  confirmable_fields: []
+  confirmed_fields: []
+  country: US
+  cqd_sync_unlocked: true
+  created_on: '2019-04-25T08:28:43.721961Z'
+  email_extensions:
+  - basalite.com
+  enterprise: true
+  id: a130464112f94d95b949d639c561362f
+  image: https://cqddatastore.blob.core.windows.net/cqd/images/12bc1149-2dfd-4480-9860-935b8f5b6eea.png
+  is_failed: false
+  latitude: 38.458878
+  legal_name: BASALITE CONCRETE PRODUCTS
+  locality: Dixon
+  location:
+    boundingBox:
+      entity: position
+      northEast: 38.458899,-121.814171
+      southWest: 38.458878,-121.815204
+    buildingNumber: '605'
+    country: United States
+    countryCode: US
+    countryCodeISO3: USA
+    countrySecondarySubdivision: Solano
+    countrySubdivision: CA
+    countrySubdivisionName: California
+    countryTertiarySubdivision: Dixon
+    extendedPostalCode: '956209700'
+    freeformAddress: 605 Industrial Way, Dixon, CA 95620
+    municipality: Dixon
+    municipalitySubdivision: Dixon
+    postalCode: '95620'
+    routeNumbers: []
+    street: Industrial Way
+    streetName: Industrial Way
+    streetNameAndNumber: 605 Industrial Way
+    streetNumber: '605'
+  longitude: -121.814171
+  name: BASALITE CONCRETE PRODUCTS
+  org_type: Private
+  original_ec3_link: https://buildingtransparency.org/ec3/organizations/a130464112f94d95b949d639c561362f
+  password_login_allowed: true
+  pilot_all_employees: false
+  postal_code: '95620'
+  primary_activity_builder: false
+  primary_activity_design: false
+  primary_activity_digitization_qa: false
+  primary_activity_education: false
+  primary_activity_epd_developer: false
+  primary_activity_forest_practices_certification: false
+  primary_activity_general_contractor: false
+  primary_activity_government: false
+  primary_activity_industry_association: false
+  primary_activity_manufacturer: true
+  primary_activity_operator: false
+  primary_activity_other: true
+  primary_activity_owner: false
+  primary_activity_pcr_publisher: false
+  primary_activity_performance_standards_issuer: false
+  primary_activity_subcontractor: false
+  primary_activity_sustainability_consulting: false
+  primary_activity_verifier: false
+  updated_on: '2023-07-06T12:35:08.587151Z'
+  web_domain: basalite.com
+  website: https://www.basalite.com
+manufacturer_specific: true
+mass_per_declared_unit: 1000 kg
+matched_plants_count: 0
+material_id: f9a74bdd7eb04ab09e02b878c9d664ad
+multiproduct: false
+my_capabilities: 1
+name: '#name_is_not_extracted'
+not_an_epd: false
+open_xpd_uuid: ec300m9x
+original_data_format: pdf
+original_ec3_link: https://buildingtransparency.org/ec3/epds/ec300m9x
+output_flows: {}
+owner:
+  name: cqd.io Admin
+  user_id: cqd.admin@buildingtransparency.org
+pcr:
+  categories: []
+  confirmable_fields: []
+  confirmed_fields: []
+  cqd_sync_unlocked: true
+  created_on: '2022-07-21T20:34:05.469448Z'
+  date_of_issue: '2020-03-31'
+  date_validity_ends: '2025-03-31'
+  declared_units:
+  - 1 kg
+  doc: https://d2evkimvhatqav.cloudfront.net/documents/pcr_concrete.pdf?mtime=20210903125351&focal=none
+  id: 3d51107798964fcbab0da0df7861df8e
+  is_failed: false
+  lcia_requirements:
+    TRACI 2.1:
+      impacts: []
+      jurisdiction:
+      - '001'
+      order: 1
+  name: PCR for Portland, Blended, Masonry, Mortar, and Plastic (Stucco) Cements
+  open_xpd_uuid: ec39fzyu
+  original_ec3_link: https://buildingtransparency.org/ec3/pcrs/ec39fzyu
+  product_classes: {}
+  short_link: cqd.io/p/ec39fzyud2
+  short_name: Portland, Blended, Masonry, Mortar, and Plastic (Stucco) Cements
+  updated_on: '2022-09-30T14:46:12.298214Z'
+  version: '2'
+pct80_gwp_per_category_declared_unit: 860.6080553 kgCO2e
+plant_geography:
+- US-GA
+plant_or_group:
+  address: Clinchfield, GA 31013, USA
+  admin_district: GA
+  admin_district2: Houston County
+  carbon_intensity: 1033.471 lbCO2e / MWh
+  categories: []
+  confirmable_fields: []
+  confirmed_fields: []
+  country: US
+  cqd_sync_unlocked: true
+  created_on: '2024-04-11T11:42:14.192502Z'
+  id: 4d2c292ebd9e4fc2b17453ee96bb9f6e
+  is_failed: false
+  latitude: 32.4140932
+  locality: Clinchfield
+  location:
+  - long_name: '31013'
+    short_name: '31013'
+    types:
+    - postal_code
+  - long_name: Clinchfield
+    short_name: Clinchfield
+    types:
+    - locality
+    - political
+  - long_name: Houston County
+    short_name: Houston County
+    types:
+    - administrative_area_level_2
+    - political
+  - long_name: Georgia
+    short_name: GA
+    types:
+    - administrative_area_level_1
+    - political
+  - long_name: United States
+    short_name: US
+    types:
+    - country
+    - political
+  longitude: -83.63827979999999
+  name: Clinchfield Cement Plant
+  openepd_id: 864RC976+JM.basalite.com
+  owned_by:
+    address: 605 Industrial Way, Dixon, CA 95620
+    address_line: 605 Industrial Way
+    admin_district: CA
+    admin_district2: Solano
+    alt_names:
+    - BASALITE CONCRETE PRODUCTS
+    - Kistner Concrete Products
+    - Prestige Concrete Products
+    - Shea Concrete Products
+    - Brown's Concrete Products
+    - Century Concrete Products
+    - Cindercrete Products
+    - Basalite
+    - Basalite Concrete Products
+    attachments:
+      TransparencyCatalogURL: https://transparencycatalog.com/company/basalite
+    confirmable_fields: []
+    confirmed_fields: []
+    country: US
+    cqd_sync_unlocked: true
+    created_on: '2019-04-25T08:28:43.721961Z'
+    email_extensions:
+    - basalite.com
+    enterprise: true
+    id: a130464112f94d95b949d639c561362f
+    image: https://cqddatastore.blob.core.windows.net/cqd/images/12bc1149-2dfd-4480-9860-935b8f5b6eea.png
+    is_failed: false
+    latitude: 38.458878
+    legal_name: BASALITE CONCRETE PRODUCTS
+    locality: Dixon
+    location:
+      boundingBox:
+        entity: position
+        northEast: 38.458899,-121.814171
+        southWest: 38.458878,-121.815204
+      buildingNumber: '605'
+      country: United States
+      countryCode: US
+      countryCodeISO3: USA
+      countrySecondarySubdivision: Solano
+      countrySubdivision: CA
+      countrySubdivisionName: California
+      countryTertiarySubdivision: Dixon
+      extendedPostalCode: '956209700'
+      freeformAddress: 605 Industrial Way, Dixon, CA 95620
+      municipality: Dixon
+      municipalitySubdivision: Dixon
+      postalCode: '95620'
+      routeNumbers: []
+      street: Industrial Way
+      streetName: Industrial Way
+      streetNameAndNumber: 605 Industrial Way
+      streetNumber: '605'
+    longitude: -121.814171
+    name: BASALITE CONCRETE PRODUCTS
+    org_type: Private
+    original_ec3_link: https://buildingtransparency.org/ec3/organizations/a130464112f94d95b949d639c561362f
+    password_login_allowed: true
+    pilot_all_employees: false
+    postal_code: '95620'
+    primary_activity_builder: false
+    primary_activity_design: false
+    primary_activity_digitization_qa: false
+    primary_activity_education: false
+    primary_activity_epd_developer: false
+    primary_activity_forest_practices_certification: false
+    primary_activity_general_contractor: false
+    primary_activity_government: false
+    primary_activity_industry_association: false
+    primary_activity_manufacturer: true
+    primary_activity_operator: false
+    primary_activity_other: true
+    primary_activity_owner: false
+    primary_activity_pcr_publisher: false
+    primary_activity_performance_standards_issuer: false
+    primary_activity_subcontractor: false
+    primary_activity_sustainability_consulting: false
+    primary_activity_verifier: false
+    updated_on: '2023-07-06T12:35:08.587151Z'
+    web_domain: basalite.com
+    website: https://www.basalite.com
+  postal_code: '31013'
+  total_epds: 2
+  type: Plant
+  updated_on: '2024-06-20T22:00:15.700775Z'
+plant_specific: false
+private: false
+product_specific: true
+program_operator:
+  address: 100 Barr Harbor Dr, Conshohocken, PA 19428, USA
+  address_line: 100 Barr Harbor Dr
+  admin_district: PA
+  admin_district2: Montgomery County
+  alt_names:
+  - astm
+  - ASTMInternational
+  attachments:
+    Programme Instructions: https://www.astm.org/CERTIFICATION/DOCS/162.ASTM_General_Program_Instructions_6.0_110414.pdf
+  confirmable_fields: []
+  confirmed_fields: []
+  country: US
+  cqd_sync_unlocked: true
+  created_on: '2018-10-01T05:13:50.328641Z'
+  email_extensions:
+  - astm.org
+  enterprise: true
+  id: 2657c6a84bfa4675a5e4ee785c253a48
+  image: https://cqddatastore.blob.core.windows.net/cqd/images/d2e41902-21b7-486d-b303-d84c4b95ecfc.png
+  is_failed: false
+  latitude: 40.0689574
+  legal_name: ASTM International
+  locality: Conshohocken
+  location:
+  - long_name: '100'
+    short_name: '100'
+    types:
+    - street_number
+  - long_name: Barr Harbor Drive
+    short_name: Barr Harbor Dr
+    types:
+    - route
+  - long_name: Conshohocken
+    short_name: Conshohocken
+    types:
+    - locality
+    - political
+  - long_name: Montgomery County
+    short_name: Montgomery County
+    types:
+    - administrative_area_level_2
+    - political
+  - long_name: Pennsylvania
+    short_name: PA
+    types:
+    - administrative_area_level_1
+    - political
+  - long_name: United States
+    short_name: US
+    types:
+    - country
+    - political
+  - long_name: '19428'
+    short_name: '19428'
+    types:
+    - postal_code
+  - long_name: '2951'
+    short_name: '2951'
+    types:
+    - postal_code_suffix
+  longitude: -75.3083283
+  name: ASTM International
+  org_type: Private
+  original_ec3_link: https://buildingtransparency.org/ec3/organizations/2657c6a84bfa4675a5e4ee785c253a48
+  password_login_allowed: true
+  pilot_all_employees: false
+  po_geography:
+  - US
+  - CA
+  postal_code: '19428'
+  primary_activity_builder: false
+  primary_activity_design: false
+  primary_activity_digitization_qa: false
+  primary_activity_education: false
+  primary_activity_epd_developer: false
+  primary_activity_forest_practices_certification: false
+  primary_activity_general_contractor: false
+  primary_activity_government: false
+  primary_activity_industry_association: false
+  primary_activity_manufacturer: false
+  primary_activity_operator: true
+  primary_activity_other: true
+  primary_activity_owner: false
+  primary_activity_pcr_publisher: false
+  primary_activity_performance_standards_issuer: true
+  primary_activity_subcontractor: false
+  primary_activity_sustainability_consulting: false
+  primary_activity_verifier: true
+  updated_on: '2024-07-22T20:35:58.976247Z'
+  web_domain: astm.org
+  website: https://www.astm.org/CERTIFICATION/EpdAndPCRs.html
+program_operator_fkey: EPD 450
+requires_ocr: false
+resource_uses: {}
+sanitizable: true
+short_link: cqd.io/e/ec300m9x8g
+standard_deviation: 94.59132047 kgCO2e
+stored_carbon_z: 0.2
+supply_chain_specific: 0.0
+third_party_verified: true
+uncertainty_adjusted_gwp: 860.6080553 kgCO2e
+uncertainty_factor: 1.1019309286950727
+updated_on: '2024-04-11T11:42:22.119317Z'
+use_stored_carbon: false
+warnings:
+  density:
+  - Not specified
+  developer:
+  - Missing link
+  impacts:
+  - PCR's required LCIA Method not found in the document
+  - EP-FRESH impact not specified
+  - EP-TERRESTRIAL impact not specified
+  verifier:
+  - Missing link
