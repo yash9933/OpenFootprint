@@ -288,3 +288,5 @@
 2024/09/07 14:47:58 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://buildingtransparency.org:443 "GET /api/epds?plant_geography=US-OR&page_size=250&page_number=48 HTTP/11" 200 None
 2024/09/07 22:10:09 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): etl-api.cqd.io:443
 2024/09/07 22:10:09 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://etl-api.cqd.io:443 "POST /api/rest-auth/login HTTP/11" 400 150
+2024/09/08 22:10:22 - urllib3.connectionpool - DEBUG - 1051 - connectionpool - Starting new HTTPS connection (1): etl-api.cqd.io:443
+2024/09/08 22:10:23 - urllib3.connectionpool - DEBUG - 546 - connectionpool - https://etl-api.cqd.io:443 "POST /api/rest-auth/login HTTP/11" 400 150
